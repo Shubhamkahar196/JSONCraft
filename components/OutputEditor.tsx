@@ -1,9 +1,9 @@
 import React from 'react'
 
-const OutoutEditor = () => {
+const OutputEditor = () => {
   return (
     <div>OutoutEditor</div>
   )
 }
 
-export default OutoutEditor
+export default OutputEditor
