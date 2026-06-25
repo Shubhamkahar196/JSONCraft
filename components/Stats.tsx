@@ -1,9 +1,13 @@
-import React from 'react'
-
-const Stats = () => {
+export default function Stats() {
   return (
-    <div>Stats</div>
-  )
-}
+    <div className="mt-10 flex gap-6 text-slate-400">
 
-export default Stats
+      <p>Characters : 0</p>
+
+      <p>Lines : 0</p>
+
+      <p>Status : Waiting...</p>
+
+    </div>
+  );
+}

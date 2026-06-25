@@ -1,5 +1,6 @@
 
 import React from 'react'
+import ThemeToggle from './ThemeToggle'
 
 const Header = () => {
   return (
@@ -8,10 +9,8 @@ const Header = () => {
       <h2 className="text-xl font-bold">
           JSONCraft
         </h2>
-          {/* todo mai theam dark and light */}
-        <button className="cursor-pointer">
-          🌙
-        </button>
+         
+       <ThemeToggle />
 
 </div>
    </header>
